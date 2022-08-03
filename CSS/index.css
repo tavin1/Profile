@@ -1,0 +1,149 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4169E1;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+header .nameAutor {
+    margin-top: -70px;
+    margin-left: -110px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+p {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.aboutText{
+    width: 300px;
+    height: 90px;
+    margin-bottom: 90px;
+}
+
+header .network {
+    margin-top: -90px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header .network img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+
+header .imgAvatar {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    margin-top: 150px;
+}
+
+.boxContainerAbout{
+    display: block;
+    justify-content: flex;
+    border-radius: 30px;
+}
+
+.about {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutText {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+hr {
+    border: 0;
+	border-top: 2px solid #4169E1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: -170px;
+    font-weight: 100;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 10px 10px 0px 0px;
+    color: DimGray;
+    width: 300px;
+    height: 540px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #ffffff;
+}
+
+
+.box img {
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box h3 {
+    text-align: center;
+    padding: 3px;
+    color: #4169E1;
+    font-weight: 800;
+}
+
+.box p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+div {
+    display: block;
+}
+
+main {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    color: DimGray;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-left: 650px;
+}
